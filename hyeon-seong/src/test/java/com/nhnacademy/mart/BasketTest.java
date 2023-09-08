@@ -1,7 +1,6 @@
 package com.nhnacademy.mart;
 
 import static org.junit.Assert.*;
-import java.util.ArrayList;
 import org.junit.Before;
 import org.junit.Test;
 public class BasketTest {
@@ -15,7 +14,6 @@ public class BasketTest {
         food2 = new Food("양파", 1000);
         food3 = new Food("파", 500);
         food4 = new Food("사과", 2000);
-        foods=new ArrayList<>();
     }
 
     @Test
