@@ -44,7 +44,7 @@
                             <transformers>
                                 <transformer
                                     implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>com.nhnacademy.movie.MovieMain</mainClass>
+                                    <mainClass>com.nhnacademy.mart.NhnMartShell</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>

@@ -8,8 +8,11 @@ public class NhnMartShell {
     public static void main(String[] args) {
         NhnMart mart = new NhnMart();
         mart.prepareMart();
+        
+        System.out.println("NHN 마트에 오신 것을 환영합니다. 사고 싶은 물건을 골라주세요. (ex: 양파 2 계란 2 파 4)");
 
         BuyList buyList = inputBuyListFromShell();
+
 
         // TODO 본인이름 영어로 변수명 작성!
         // 본인이름을 각자 맞게 영어로 변경
