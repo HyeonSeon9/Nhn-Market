@@ -1,16 +1,12 @@
 package com.nhnacademy.mart;
 
 import java.util.Scanner;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import com.nhnacademy.mart.BuyList.Item;
 
 public class NhnMartShell {
-    private static final Logger logger = LoggerFactory.getLogger(NhnMartShell.class);
     public static void main(String[] args) {
         NhnMart mart = new NhnMart();
         mart.prepareMart();
-        logger.info("ddddd");
         System.out.println("NHN 마트에 오신 것을 환영합니다. 사고 싶은 물건을 골라주세요. (ex: 양파 2 계란 2 파 4)");
 
         BuyList buyList = inputBuyListFromShell();
